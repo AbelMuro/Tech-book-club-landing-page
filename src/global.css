@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'inter';
+    src: url('./assets/fonts/Inter-VariableFont_opsz\,wght.ttf');
+}
+
+@font-face{
+    font-family: 'martian mono';
+    src: url('./assets/fonts/MartianMono-VariableFont_wdth\,wght.ttf');
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    transition: all 0.2s linear;
+    box-sizing: border-box;
+}
+
+:root{
+    --closest: 100;
+    --closer: 75;
+    --close: 50;
+    --far: 25;
+    --farther: 10;
+    --farthest: 1;
+}
