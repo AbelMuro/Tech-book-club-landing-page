@@ -1,0 +1,29 @@
+.journey{
+    width: 1170px;
+    height: 454.022px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-content: center;
+    row-gap: 64px;
+    margin: 0px auto 120px auto;
+    background-image: url('/src/assets/images/pattern-light-bg.svg');
+    background-position: center;
+    border-radius: 12px;
+    background-color: var(--colors-neutral-50, #FAF5F3);
+}
+
+.journey_title{
+    width: 512px;
+    justify-self: center;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    color: #062630;
+    text-align: center;
+    font-family: "martian mono";
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 60px */
+    letter-spacing: -2px;
+    margin: 0px;
+}

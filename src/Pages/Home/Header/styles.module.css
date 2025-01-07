@@ -2,7 +2,7 @@
     width: 100%;
     padding: 32px 0px 80px 0px;
     background-color: #FAF5F3;
-    background-image: url('./icons/pattern-light-bg.svg');
+    background-image: url('/src/assets/images/pattern-light-bg.svg');
     background-size: contain;
     background-position: center;
     display: flex;
@@ -203,6 +203,10 @@
 
     .header > section{
         row-gap: 48px;
+    }
+
+    .header_image{
+        background-image: url('./icons/image-hero-mobile.webp');
     }
 
     .header_content_title{

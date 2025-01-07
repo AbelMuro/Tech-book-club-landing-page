@@ -1,4 +1,5 @@
 import React from 'react';
+import commonIcons from '~/assets/images';
 import icons from './icons';
 import * as styles from './styles.module.css';
 
@@ -36,7 +37,7 @@ function Header() {
                 </section>
                 <img className={styles.header_image} alt='three individuals reading together'/>
             </section>
-            <img className={styles.header_glow} src={icons['patternGlow']}/>
+            <img className={styles.header_glow} src={commonIcons['patternGlow']}/>
         </header>
     )
 }

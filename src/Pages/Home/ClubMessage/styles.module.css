@@ -1,0 +1,147 @@
+.club{
+    width: 1170px;
+    display: grid;
+    grid-template-columns: 560px 530px;
+    align-items: center;
+    gap: 80px;
+    margin: 0px auto 120px auto;
+}
+
+.club_content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.club_title{
+    color: #062630;
+    font-family: "martian mono";
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 65px */
+    letter-spacing: -2px;
+    margin: 0px;
+}
+
+.club_title > span{
+    position: relative;
+}
+
+.pattern{
+    width: 158px;
+    height: 68px;
+    object-fit: contain;
+    position: absolute;
+    left: -14px;
+}
+
+.club_desc{
+    color: var(--colors-neutral-700, #385159);
+    font-family: 'inter';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    letter-spacing: -0.5px;
+    margin: 0px;
+}
+
+.club_desc > span{ 
+    font-weight: 600;
+}
+
+.image_container{
+    width: 100%;
+    position: relative;
+}
+
+.club_image{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    content: url('./images/image-not-average-desktop.webp');
+}
+
+.tech_logos{
+    width: 119.56px;
+    height: 138px;
+    content: url('./icons/logos-tech.svg');
+    position: absolute;
+    bottom: 31px;
+    left: -80px;
+}
+
+@media(max-width: 1300px){
+    .club{
+        width: 90%;
+        grid-template-columns: 1fr 540px;
+    }
+}
+
+@media(max-width: 1115px){
+    .club{
+        grid-template-columns: 386.89px 1fr;
+        column-gap: 40px;
+    }
+}
+
+@media(max-width: 1000px){
+    .club{
+        grid-template-columns: 320px 1fr;
+        column-gap: 40px;
+    }
+}
+
+@media(max-width: 850px){
+    .club{
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+        column-gap: 0px;
+        margin-bottom: 80px;
+    } 
+
+    .club_content{
+        grid-row: 1/2;
+    }
+
+    .club_image{
+        border-radius: 12px;
+        grid-row: 2/3;
+        content: url('./images/image-not-average-tablet.webp')
+    }
+
+    .tech_logos{
+        bottom: 50.47px;
+        left: initial;
+        right: 50.44px;
+    }
+}
+
+@media(max-width: 550px){
+    .club{
+        margin-bottom: 64px;
+    }
+
+    .pattern{
+        width: 108.618px;
+        height: 46.526px;
+        left: -10px;
+    }
+
+    .club_title{
+        font-size: 2.125rem;
+    }
+
+    .details_list{
+        gap: 16px;
+    }
+
+    .details_image{
+        content: url('./images/image-not-average-mobile.webp');
+    }
+
+    .tech_logos{
+        display: none;
+    }
+}
