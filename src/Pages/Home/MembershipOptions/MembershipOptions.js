@@ -3,8 +3,6 @@ import icons from './icons';
 import commonIcons from '~/assets/images'
 import * as styles from './styles.module.css';
 
-//this is where i left off, i will need to work on the responsiveness of this component
-
 function MembershipOptions() {
     return(
         <section className={styles.membership}>

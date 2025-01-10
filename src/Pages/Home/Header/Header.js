@@ -1,5 +1,6 @@
 import React from 'react';
-import commonIcons from '~/assets/images';
+import commonImages from '~/assets/images';
+import commonIcons from '~/assets/icons';
 import icons from './icons';
 import * as styles from './styles.module.css';
 
@@ -22,13 +23,13 @@ function Header() {
                         <img src={icons['arrowDown']}/>
                     </button>
                     <div className={styles.header_content_misc}>
-                        <img src={icons['avatars']} />
+                        <img src={commonIcons['avatars']} />
                         <div className={styles.header_content_stars}>
-                            <img src={icons['star']}/>
-                            <img src={icons['star']}/>
-                            <img src={icons['star']}/>
-                            <img src={icons['star']}/>
-                            <img src={icons['star']}/>
+                            <img src={commonIcons['star']}/>
+                            <img src={commonIcons['star']}/>
+                            <img src={commonIcons['star']}/>
+                            <img src={commonIcons['star']}/>
+                            <img src={commonIcons['star']}/>
                         </div>
                         <p>
                             200+ developers joined already
@@ -37,7 +38,7 @@ function Header() {
                 </section>
                 <img className={styles.header_image} alt='three individuals reading together'/>
             </section>
-            <img className={styles.header_glow} src={commonIcons['patternGlow']}/>
+            <img className={styles.header_glow} src={commonImages['patternGlow']}/>
         </header>
     )
 }
