@@ -18,13 +18,13 @@ function Footer(){
                     <img src={icons['arrowUp']}/>
                 </button>
                 <div className={styles.footer_content_misc}>
-                    <img src={commonImages['avatars']}/> 
+                    <img src={commonImages['avatars']} alt='three individuals smiling'/> 
                     <div className={styles.footer_content_misc_stars}>
-                        <img src={commonIcons['star']}/>
-                        <img src={commonIcons['star']}/>
-                        <img src={commonIcons['star']}/>
-                        <img src={commonIcons['star']}/>
-                        <img src={commonIcons['star']}/>                        
+                        <img src={commonIcons['star']} alt='yellow star'/>
+                        <img src={commonIcons['star']} alt='yellow star'/>
+                        <img src={commonIcons['star']} alt='yellow star'/>
+                        <img src={commonIcons['star']} alt='yellow star'/>
+                        <img src={commonIcons['star']} alt='yellow star'/>                        
                     </div> 
                     <small>
                         200+ developers joined already
@@ -35,8 +35,8 @@ function Footer(){
                         &copy; 2024 - Tech Book Club
                     </em>
                     <div className={styles.footer_content_bar_social}>
-                        <img src={icons['bluesky']}/>
-                        <img src={icons['linkedin']}/>
+                        <img className={styles.footer_content_bar_social_bluesky} alt='blue sky logo'/>
+                        <img className={styles.footer_content_bar_social_linkedin} alt='linked-in logo'/>
                     </div>
                 </div>      
             </section>

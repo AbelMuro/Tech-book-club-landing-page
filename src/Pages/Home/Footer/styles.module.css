@@ -12,12 +12,14 @@
 }
 
 .footer_content{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .footer_content_title{
+    width: 685px;
     color: var(--colors-neutral-50, #FAF5F3);
     text-align: center;
     font-family: "martian mono";
@@ -35,6 +37,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0px 14px;
     gap: 16px;
     border-radius: 8px;
     border: 2px solid var(--colors-neutral-0, #FFF);
@@ -124,4 +127,105 @@
     display: flex;
     align-items: center;
     gap: 24px;
+}
+
+.footer_content_bar_social_bluesky,
+.footer_content_bar_social_linkedin{
+    mask-position: center;
+    mask-repeat: no-repeat;
+    cursor: pointer; 
+}
+
+.footer_content_bar_social_bluesky{
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    mask-image: url('./icons/logo-bluesky.svg');
+    mask-size: 22px 22px;
+}
+
+.footer_content_bar_social_bluesky:hover, 
+.footer_content_bar_social_linkedin:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+.footer_content_bar_social_bluesky:active,
+.footer_content_bar_social_linkedin:active{
+    background-color: rgba(168, 168, 168, 0.6);
+}
+
+.footer_content_bar_social_linkedin{
+    width: 18px;
+    height: 19px;
+    background-color: white;
+    mask-image: url('./icons/logo-linkedin.svg');
+    mask-size: 18px 19px;
+}
+
+@media(max-width: 850px){
+    .footer{
+        padding: 64px 0px 0px 0px;
+    }
+
+    .footer_content_title{
+        width: 80%;
+    }
+
+    .footer_content_bar{
+        height: 70px;
+        align-items: center;
+        padding: 0px 32px;
+    }
+
+    .footer_content_misc{
+        width: 388px;
+    }
+
+    .footer_content_button{
+        width: 380px
+    }
+}
+
+@media(max-width: 550px){
+    .footer{
+        padding: 48px 16px 0px 16px;
+    }
+
+    .footer_content_title{
+        width: 93%;
+        font-size: 2.125rem;
+    }
+
+    .footer_content_button{
+        width: 345px;
+        font-size: 1rem;
+    }
+
+    .footer_content_bar{
+        height: 103px;
+        padding: 24px 32px;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        row-gap: 16px;
+    }
+
+    .footer_content_misc{
+        width: 345px;
+    }
+
+    .footer_content_misc > small{
+        text-align: left;
+    }
+
+}
+
+@media(max-width: 400px){
+    .footer_content_button{
+        width: 100%;
+    }
+
+    .footer_content_misc{
+        width: 100%;
+    }
 }

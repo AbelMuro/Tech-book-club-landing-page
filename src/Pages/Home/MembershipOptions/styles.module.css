@@ -144,7 +144,7 @@
 
 @media(max-width: 1070px){
     .membership{
-        width: 90%;
+        width: 93%;
         grid-template-columns: 1fr 1.2fr 1fr;
         column-gap: 14px;
     }

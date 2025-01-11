@@ -62,9 +62,10 @@
     width: 380px;
     height: 64px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 0px 24px;
+    gap: 16px;
+    padding: 0px 14px;
     color: var(--colors-neutral-900, #062630);
     font-family: "martian mono";
     font-size: 1.125rem;
@@ -131,7 +132,6 @@
     object-fit: contain;
     border-radius: 5px;
     align-self: center;
-    content: url('./icons/image-hero-desktop.webp')
 }
 
 .header_glow{
@@ -145,7 +145,7 @@
 
 @media(max-width: 1300px){
     .header > section{
-        width: 90%;
+        width: 93%;
         grid-template-columns: 1fr 540px;
     }
 }
@@ -167,7 +167,7 @@
 
 @media(max-width: 1000px){
     .header > section{
-        grid-template-columns: 320px 1fr;
+        grid-template-columns: 362px 1fr;
         column-gap: 40px;
     }
 }
@@ -189,10 +189,6 @@
     .header_content_button{
         width: 380px;
     }
-
-    .header_image{
-        content: url('./icons/image-hero-tablet.webp')
-    }
 }
 
 @media(max-width: 550px){
@@ -205,16 +201,12 @@
         row-gap: 48px;
     }
 
-    .header_image{
-        background-image: url('./icons/image-hero-mobile.webp');
-    }
-
     .header_content_title{
         font-size: 2.375rem;
     }
 
     .header_content_button{
-        width: 100%;
+        width: 343px;
         font-size: 1rem;
     }
 
@@ -224,5 +216,11 @@
 
     .header_glow{
         display: none;
+    }
+}
+
+@media(max-width: 400px){
+    .header_content_button{
+        width: 100%;
     }
 }

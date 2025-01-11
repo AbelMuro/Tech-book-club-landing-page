@@ -21,11 +21,11 @@ function MembershipOptions() {
                 </strong>
                 <hr className={styles.membership_option_line}/>
                 <div className={styles.membership_option_detail}>
-                    <img src={icons['checkbox']}/>
+                    <img src={icons['checkbox']} alt='check box'/>
                     1 book/month
                 </div>
                 <div className={styles.membership_option_detail}>
-                    <img src={icons['checkbox']}/>
+                    <img src={icons['checkbox']} alt='check box'/>
                     Online forums
                 </div>
                 <button className={styles.membership_option_button}>
@@ -44,11 +44,11 @@ function MembershipOptions() {
                 </strong>
                 <hr className={styles.membership_option_line}/>
                 <div className={styles.membership_option_detail}>
-                    <img src={icons['checkbox']}/>
+                    <img src={icons['checkbox']} alt='check box'/>
                     2 books/month
                 </div>
                 <div className={styles.membership_option_detail}>
-                    <img src={icons['checkbox']}/>
+                    <img src={icons['checkbox']} alt='check box'/>
                     Virtual meetups
                 </div>
                 <button className={styles.membership_option_button}>
@@ -67,11 +67,11 @@ function MembershipOptions() {
                 </strong>
                 <hr className={styles.membership_option_line}/>
                 <div className={styles.membership_option_detail}>
-                    <img src={icons['checkbox']}/>
+                    <img src={icons['checkbox']} alt='check box'/>
                     Team access
                 </div>
                 <div className={styles.membership_option_detail}>
-                    <img src={icons['checkbox']}/>
+                    <img src={icons['checkbox']} alt='check box'/>
                     Private sessions
                 </div>
                 <button className={styles.membership_option_button}>

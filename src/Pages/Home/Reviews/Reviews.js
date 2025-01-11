@@ -6,11 +6,11 @@ function Reviews() {
     return(
         <section className={styles.review}>
             <div className={styles.review_stars}>
-                <img src={commonIcons['star']}/>
-                <img src={commonIcons['star']}/>
-                <img src={commonIcons['star']}/>
-                <img src={commonIcons['star']}/>
-                <img src={commonIcons['star']}/>
+                <img src={commonIcons['star']} alt='yellow star'/>
+                <img src={commonIcons['star']} alt='yellow star'/>
+                <img src={commonIcons['star']} alt='yellow star'/>
+                <img src={commonIcons['star']} alt='yellow star'/>
+                <img src={commonIcons['star']} alt='yellow star'/>
             </div>
             <blockquote className={styles.review_quote}>
                 "This book club transformed my technical 

@@ -11,7 +11,6 @@
     width: 100%;
     object-fit: cover;
     border-radius: 5px;
-    content: url('./images/image-read-together-desktop.webp');
 }
 
 .details_content{
@@ -57,7 +56,7 @@
 
 @media(max-width: 1300px){
     .details{
-        width: 90%;
+        width: 93%;
         grid-template-columns: 540px 1fr;
     }
 }
@@ -71,7 +70,7 @@
 
 @media(max-width: 1000px){
     .details{
-        grid-template-columns: 1fr 320px;
+        grid-template-columns: 1fr 362px;
         column-gap: 40px;
     }
 }
@@ -91,7 +90,6 @@
     .details_image{
         border-radius: 12px;
         grid-row: 2/3;
-        content: url('./images/image-read-together-tablet.webp')
     }
 }
 
@@ -106,9 +104,5 @@
 
     .details_list{
         gap: 16px;
-    }
-
-    .details_image{
-        content: url('./images/image-read-together-mobile.webp');
     }
 }

@@ -60,7 +60,6 @@
     width: 100%;
     object-fit: contain;
     border-radius: 5px;
-    content: url('./images/image-not-average-desktop.webp');
 }
 
 .tech_logos{
@@ -74,7 +73,7 @@
 
 @media(max-width: 1300px){
     .club{
-        width: 90%;
+        width: 93%;
         grid-template-columns: 1fr 540px;
     }
 }
@@ -88,7 +87,7 @@
 
 @media(max-width: 1000px){
     .club{
-        grid-template-columns: 320px 1fr;
+        grid-template-columns: 362px 1fr;
         column-gap: 40px;
     }
 }
@@ -108,7 +107,6 @@
     .club_image{
         border-radius: 12px;
         grid-row: 2/3;
-        content: url('./images/image-not-average-tablet.webp')
     }
 
     .tech_logos{
@@ -131,14 +129,6 @@
 
     .club_title{
         font-size: 2.125rem;
-    }
-
-    .details_list{
-        gap: 16px;
-    }
-
-    .details_image{
-        content: url('./images/image-not-average-mobile.webp');
     }
 
     .tech_logos{
